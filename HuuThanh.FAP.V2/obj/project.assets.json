@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "HuuThanh.FAP.V2.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "HuuThanh.FAP.V2.Repositories": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HuuThanh.FAP.V2.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HuuThanh.FAP.V2.Business.dll": {}
+        }
+      },
       "HuuThanh.FAP.V2.Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "HuuThanh.FAP.V2.Business/1.0.0": {
+      "type": "project",
+      "path": "../HuuThanh.FAP.V2.Business/HuuThanh.FAP.V2.Business.csproj",
+      "msbuildProject": "../HuuThanh.FAP.V2.Business/HuuThanh.FAP.V2.Business.csproj"
+    },
     "HuuThanh.FAP.V2.Repositories/1.0.0": {
       "type": "project",
       "path": "../HuuThanh.FAP.V2.Repositories/HuuThanh.FAP.V2.Repositories.csproj",
@@ -23,7 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "HuuThanh.FAP.V2.Repositories >= 1.0.0"
+      "HuuThanh.FAP.V2.Business >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,8 +71,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Repositories\\HuuThanh.FAP.V2.Repositories.csproj": {
-              "projectPath": "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Repositories\\HuuThanh.FAP.V2.Repositories.csproj"
+            "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Business\\HuuThanh.FAP.V2.Business.csproj": {
+              "projectPath": "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Business\\HuuThanh.FAP.V2.Business.csproj"
             }
           }
         }

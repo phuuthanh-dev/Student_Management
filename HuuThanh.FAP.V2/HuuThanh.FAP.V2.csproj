@@ -9,7 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HuuThanh.FAP.V2.Repositories\HuuThanh.FAP.V2.Repositories.csproj" />
+    <ProjectReference Include="..\HuuThanh.FAP.V2.Business\HuuThanh.FAP.V2.Business.csproj">
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>

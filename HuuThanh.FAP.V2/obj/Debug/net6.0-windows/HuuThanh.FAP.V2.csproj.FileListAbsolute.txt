@@ -20,3 +20,5 @@ D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2\obj\Debug\net6.0-windows\r
 D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2\obj\Debug\net6.0-windows\HuuThanh.FAP.V2.pdb
 D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2\obj\Debug\net6.0-windows\HuuThanh.FAP.V2.genruntimeconfig.cache
 D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2\obj\Debug\net6.0-windows\ref\HuuThanh.FAP.V2.dll
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2\bin\Debug\net6.0-windows\HuuThanh.FAP.V2.Business.dll
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2\bin\Debug\net6.0-windows\HuuThanh.FAP.V2.Business.pdb
