@@ -4,6 +4,65 @@
     "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2\\HuuThanh.FAP.V2.csproj": {}
   },
   "projects": {
+    "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Business\\HuuThanh.FAP.V2.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Business\\HuuThanh.FAP.V2.Business.csproj",
+        "projectName": "HuuThanh.FAP.V2.Business",
+        "projectPath": "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Business\\HuuThanh.FAP.V2.Business.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Repositories\\HuuThanh.FAP.V2.Repositories.csproj": {
+                "projectPath": "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Repositories\\HuuThanh.FAP.V2.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Repositories\\HuuThanh.FAP.V2.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -83,8 +142,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Repositories\\HuuThanh.FAP.V2.Repositories.csproj": {
-                "projectPath": "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Repositories\\HuuThanh.FAP.V2.Repositories.csproj"
+              "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Business\\HuuThanh.FAP.V2.Business.csproj": {
+                "projectPath": "D:\\FPTU\\Ki5\\PRN211\\Student_Management\\HuuThanh.FAP.V2.Business\\HuuThanh.FAP.V2.Business.csproj"
               }
             }
           }

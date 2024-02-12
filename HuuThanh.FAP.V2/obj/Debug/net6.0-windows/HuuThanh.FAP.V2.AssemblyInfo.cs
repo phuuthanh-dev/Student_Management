@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HuuThanh.FAP.V2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92c0c531fa900c263fa3a1a7e1129805cf29d2e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72fb96faf0fc2388beb66dd1ca4695d31d5e1f8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("HuuThanh.FAP.V2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HuuThanh.FAP.V2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

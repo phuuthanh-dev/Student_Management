@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuuThanh.FAP.V2", "HuuThanh.FAP.V2\HuuThanh.FAP.V2.csproj", "{2DD9917B-211F-47EE-B4DD-0AB4DE73E139}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuuThanh.FAP.V2.Repositories", "HuuThanh.FAP.V2.Repositories\HuuThanh.FAP.V2.Repositories.csproj", "{8F277B30-73F7-4809-B4D3-FD258FF48131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuuThanh.FAP.V2.Repositories", "HuuThanh.FAP.V2.Repositories\HuuThanh.FAP.V2.Repositories.csproj", "{8F277B30-73F7-4809-B4D3-FD258FF48131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuuThanh.FAP.V2.Business", "HuuThanh.FAP.V2.Business\HuuThanh.FAP.V2.Business.csproj", "{68EF8058-628A-4BA9-9F29-BEAFD958327A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8F277B30-73F7-4809-B4D3-FD258FF48131}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F277B30-73F7-4809-B4D3-FD258FF48131}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F277B30-73F7-4809-B4D3-FD258FF48131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68EF8058-628A-4BA9-9F29-BEAFD958327A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EF8058-628A-4BA9-9F29-BEAFD958327A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EF8058-628A-4BA9-9F29-BEAFD958327A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EF8058-628A-4BA9-9F29-BEAFD958327A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,10 +8,18 @@
     ".NETCoreApp,Version=v6.0": {
       "HuuThanh.FAP.V2/1.0.0": {
         "dependencies": {
-          "HuuThanh.FAP.V2.Repositories": "1.0.0"
+          "HuuThanh.FAP.V2.Business": "1.0.0"
         },
         "runtime": {
           "HuuThanh.FAP.V2.dll": {}
+        }
+      },
+      "HuuThanh.FAP.V2.Business/1.0.0": {
+        "dependencies": {
+          "HuuThanh.FAP.V2.Repositories": "1.0.0"
+        },
+        "runtime": {
+          "HuuThanh.FAP.V2.Business.dll": {}
         }
       },
       "HuuThanh.FAP.V2.Repositories/1.0.0": {
@@ -23,6 +31,11 @@
   },
   "libraries": {
     "HuuThanh.FAP.V2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HuuThanh.FAP.V2.Business/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

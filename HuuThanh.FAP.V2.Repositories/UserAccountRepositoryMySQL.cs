@@ -15,7 +15,7 @@ namespace HuuThanh.FAP.V2.Repositories
         };
         public UserAccount? Search(string username)
         {
-            return _users.FirstOrDefault(x =>  x.UserName == username);
+            return _users.SingleOrDefault(x =>  x.UserName == username);
         }
     }
 }
