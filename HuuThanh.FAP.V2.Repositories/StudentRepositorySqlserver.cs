@@ -11,7 +11,7 @@ namespace HuuThanh.FAP.V2.Repositories
     /// Nó chịu trách nhiệm lấy data từ CSDL SQLServer đem lên
     /// Chứa lệnh móc vào CSDL, lấy và đẩy data về cho Form
     /// </summary>
-    public class StudentRepositorySqlserver
+    public class StudentRepositorySqlServer : IStudentRepository
     {
         private List<Student> _ds = new List<Student>()
         { 

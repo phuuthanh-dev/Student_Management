@@ -3,7 +3,7 @@ namespace HuuThanh.FAP.V2
 {
     public partial class ListStudents : Form
     {
-        private StudentRepositorySqlserver _repoSqlserver;
+        private IStudentRepository _repo;
         //xài kho dữ liệu lấy từ SQLServer
         public ListStudents()
         {
@@ -13,8 +13,8 @@ namespace HuuThanh.FAP.V2
 
         private void InitializeStudentRepository()
         {
-            _repoSqlserver = new StudentRepositorySqlserver();
-            dgvStudentList.DataSource = _repoSqlserver.GetAll();
+            _repo = new StudentRepositorySqlServer();
+            dgvStudentList.DataSource = _repo.GetAll();
         }
 
         private void AddStudent(object sender, EventArgs e)
@@ -24,11 +24,11 @@ namespace HuuThanh.FAP.V2
             x.Name = txtName.Text;
             x.Address = txtAddress.Text;
             x.Gpa = double.Parse(txtGpa.Text);
-            _repoSqlserver.Add(x);
+            _repo.Add(x);
 
             //refresh grid
             dgvStudentList.DataSource = null;
-            dgvStudentList.DataSource = _repoSqlserver.GetAll();
+            dgvStudentList.DataSource = _repo.GetAll();
         }
 
         private void UpdateStudent(object sender, EventArgs e)
@@ -38,11 +38,11 @@ namespace HuuThanh.FAP.V2
             x.Name = txtName.Text;
             x.Address = txtAddress.Text;
             x.Gpa = double.Parse(txtGpa.Text);
-            _repoSqlserver.Update(x);
+            _repo.Update(x);
 
             //refresh grid
             dgvStudentList.DataSource = null;
-            dgvStudentList.DataSource = _repoSqlserver.GetAll();
+            dgvStudentList.DataSource = _repo.GetAll();
         }
 
         private void ViewAStudent(object sender, EventArgs e)
@@ -60,17 +60,17 @@ namespace HuuThanh.FAP.V2
         private void DeleteStudent(object sender, EventArgs e)
         {
             String id = txtId.Text;
-            _repoSqlserver.Delete(id);
+            _repo.Delete(id);
             txtId.Text = "";
             dgvStudentList.DataSource = null;
-            dgvStudentList.DataSource = _repoSqlserver.GetAll();
+            dgvStudentList.DataSource = _repo.GetAll();
         }
 
         private void SearchStudent(object sender, EventArgs e)
         {
             dgvResult.DataSource = null;
             string keyword = txtKeyword.Text.ToLower();
-            List<Student> result = _repoSqlserver.Search(keyword);
+            List<Student> result = _repo.Search(keyword);
             bool isEmpty = !result.Any();
             if(!isEmpty) dgvResult.DataSource = result;
         }
