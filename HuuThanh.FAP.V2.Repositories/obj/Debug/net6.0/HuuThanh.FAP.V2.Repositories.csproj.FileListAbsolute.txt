@@ -1,0 +1,12 @@
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2.Repositories\bin\Debug\net6.0\HuuThanh.FAP.V2.Repositories.deps.json
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2.Repositories\bin\Debug\net6.0\HuuThanh.FAP.V2.Repositories.dll
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2.Repositories\bin\Debug\net6.0\HuuThanh.FAP.V2.Repositories.pdb
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2.Repositories\obj\Debug\net6.0\HuuThanh.FAP.V2.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2.Repositories\obj\Debug\net6.0\HuuThanh.FAP.V2.Repositories.AssemblyInfoInputs.cache
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2.Repositories\obj\Debug\net6.0\HuuThanh.FAP.V2.Repositories.AssemblyInfo.cs
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2.Repositories\obj\Debug\net6.0\HuuThanh.FAP.V2.Repositories.csproj.CoreCompileInputs.cache
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2.Repositories\obj\Debug\net6.0\HuuThanh.FAP.V2.Repositories.sourcelink.json
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2.Repositories\obj\Debug\net6.0\HuuThanh.FAP.V2.Repositories.dll
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2.Repositories\obj\Debug\net6.0\refint\HuuThanh.FAP.V2.Repositories.dll
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2.Repositories\obj\Debug\net6.0\HuuThanh.FAP.V2.Repositories.pdb
+D:\FPTU\Ki5\PRN211\Student_Management\HuuThanh.FAP.V2.Repositories\obj\Debug\net6.0\ref\HuuThanh.FAP.V2.Repositories.dll

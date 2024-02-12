@@ -225,6 +225,7 @@
             Controls.Add(dgvStudentList);
             Name = "ListStudents";
             Text = "List of Students";
+            FormClosed += CloseApp;
             ((System.ComponentModel.ISupportInitialize)dgvStudentList).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvResult).EndInit();
             grbSearch.ResumeLayout(false);

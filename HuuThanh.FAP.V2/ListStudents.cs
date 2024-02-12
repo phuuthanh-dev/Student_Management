@@ -72,7 +72,12 @@ namespace HuuThanh.FAP.V2
             string keyword = txtKeyword.Text.ToLower();
             List<Student> result = _repo.Search(keyword);
             bool isEmpty = !result.Any();
-            if(!isEmpty) dgvResult.DataSource = result;
+            if (!isEmpty) dgvResult.DataSource = result;
+        }
+
+        private void CloseApp(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit(); // đóng App
         }
     }
 }
